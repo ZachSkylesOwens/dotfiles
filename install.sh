@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
 sudo apt-get update
-sudo apt-get install powerline fonts-powerline
-sudo apt-get install zsh
-sudo apt-get install curl
-sudo apt-get install git
+sudo apt-get install --yes powerline fonts-powerline
+sudo apt-get install --yes zsh
+sudo apt-get install --yes curl
+sudo apt-get install --yes git
 
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
